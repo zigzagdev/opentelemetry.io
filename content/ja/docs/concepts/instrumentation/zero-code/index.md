@@ -19,7 +19,7 @@ OpenTelemetry を使えば、[コードベースの計装](/docs/concepts/instru
 しかし、アプリケーションのコードは通常、計装されません。
 コードを計装するには、[コードベース計装](/docs/concepts/instrumentation/code-based)を使う必要があります。
 
-さらに、ゼロコード計装では、読み込まれた[計装ライブラリ](/docs/concepts/instrumentation/libraries)や[エクスポーター](/docs/concepts/components/#exporters)を設定を行うことができます。
+さらに、ゼロコード計装では、読み込まれた[計装ライブラリ](/docs/concepts/instrumentation/libraries)や[エクスポーター](/docs/concepts/components/#exporters)の設定を行うことができます。
 
 環境変数や、システムプロパティや初期化メソッドに渡される引数のような他の言語固有のメカニズムを通して、ゼロコード計装を設定できます。
 開始するには、選択したオブザーバビリティバックエンドでサービスを識別できるように設定されたサービス名だけが必要です。
